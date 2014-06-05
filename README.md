@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 opsworks_delayed_job
 ====================
 
@@ -48,3 +49,7 @@ The layer's custom chef recipes should be associated with events as follows:
 
 
 copied from https://github.com/joeyAghion/opsworks_delayed_job
+=======
+opsworks_delayed_job_3
+======================
+>>>>>>> f089aa0d27a889c316fadea25df0eb860231d026
