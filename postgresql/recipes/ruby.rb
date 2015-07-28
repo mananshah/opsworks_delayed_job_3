@@ -30,7 +30,7 @@ rescue LoadError
   end
 
   node.set['build-essential']['compile_time'] = true
-  include_recipe "build-essential"
+  include_recipe "build-essential::default"
   include_recipe "postgresql::client"
 
   if node['postgresql']['enable_pgdg_yum']
